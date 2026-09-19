@@ -6,7 +6,7 @@
   --bg-alt: #ffffff;
   --text: #1c1b1a;
   --text-muted: #5b5955;
-  --accent: #c9622a;
+  --accent: #4169E1;
   --accent-contrast: #ffffff;
   --border: #e4e1da;
   --shadow: 0 8px 24px rgba(28, 27, 26, 0.08);
@@ -21,7 +21,7 @@
   --bg-alt: #202225;
   --text: #f2f1ee;
   --text-muted: #a9a7a1;
-  --accent: #e08a4f;
+  --accent: #4169E1;
   --border: #33353a;
   --shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
 }
