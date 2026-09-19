@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name — Portfolio</title>
+  <meta name="description" content="Personal portfolio of Your Name — projects, skills, and contact." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="#top" class="logo">YN</a>
+
+      <!-- Hamburger button, only visible on small screens -->
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <!-- Dark / light theme toggle (JS feature) -->
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark and light theme">🌙</button>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ HERO / ABOUT ============ -->
+    <section id="about" class="section hero">
+      <div class="hero-content">
+        <p class="greeting" id="greeting">Hello, welcome</p>
+        <h1>Hi, I'm <span class="accent">Your Name</span>.</h1>
+        <p class="tagline">I build things for the web — one line of code, one project, one idea at a time.</p>
+        <p class="intro">
+          I'm a student developer learning full-stack web development. I enjoy turning
+          rough ideas into working interfaces, and I'm currently focused on sharpening my
+          HTML, CSS and JavaScript fundamentals through hands-on projects like this one.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">See my work</a>
+          <a href="#contact" class="btn btn-outline">Get in touch</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <!-- Replace with your own photo at assets/images/profile.jpg -->
+        <img src="assets/images/profile.jpg" alt="Portrait of Your Name" onerror="this.src='https://placehold.co/360x360?text=Your+Photo'" />
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section id="projects" class="section">
+      <h2 class="section-title">Projects</h2>
+      <p class="section-subtitle">A couple of things I've built recently.</p>
+
+      <div class="project-grid">
+
+        <article class="project-card">
+          <img src="https://placehold.co/500x300?text=Project+One" alt="Screenshot placeholder for Project One" />
+          <div class="project-body">
+            <h3>Project One</h3>
+            <p>A short description of what this project does, what problem it solves, and which
+              technologies you used to build it.</p>
+            <div class="project-links">
+              <a href="#" class="link">Live demo</a>
+              <a href="#" class="link">Source code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="https://placehold.co/500x300?text=Project+Two" alt="Screenshot placeholder for Project Two" />
+          <div class="project-body">
+            <h3>Project Two</h3>
+            <p>A short description of what this project does, what problem it solves, and which
+              technologies you used to build it.</p>
+            <div class="project-links">
+              <a href="#" class="link">Live demo</a>
+              <a href="#" class="link">Source code</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ============ SKILLS (bonus section) ============ -->
+    <section id="skills" class="section skills-section">
+      <h2 class="section-title">Skills</h2>
+      <ul class="skills-list">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>Git &amp; GitHub</li>
+        <li>Responsive Design</li>
+        <li>Problem Solving</li>
+      </ul>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="section contact-section">
+      <h2 class="section-title">Contact</h2>
+      <p class="section-subtitle">Have a project in mind or just want to say hi? Send a message.</p>
+
+      <form id="contactForm" class="contact-form" novalidate>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required placeholder="Your name" />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required placeholder="you@example.com" />
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required placeholder="Write your message..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Send message</button>
+        <p class="form-status" id="formStatus" role="status"></p>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Your Name. Built with HTML, CSS &amp; JavaScript.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
