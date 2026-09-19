@@ -1,5 +1,5 @@
 # 202449720-NorahAljammaz-assignment1 
-# Personal Protfolio
+# Personal Portfolio
 ## Project Description
 This is my personal portfolio website, built for Assignment 1 of SWE 206. It introduces
 me, showcases two of my real projects — **Breaker** (a campus social app concept) and
@@ -41,7 +41,7 @@ No build tools or installations are required.
 
 1. Clone this repository:
    ```
-   git clone https://github.com/<your-username>/202449720-NorahAljammaz-assignment1.git
+   git clone git clone https://github.com/kfupmstudent/202449720-NorahAljammaz-assignment1.git
    ```
 2. Open the project folder.
 3. Double-click `index.html` to open it in your browser, **or** use a live-reload tool
