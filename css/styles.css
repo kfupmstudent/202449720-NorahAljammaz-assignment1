@@ -365,3 +365,9 @@ input:focus, textarea:focus {
   html { scroll-behavior: auto; }
   .btn:hover { transform: none; }
 }
+.direct-contact {
+  max-width: 520px;
+  margin-bottom: 2rem;
+  color: var(--text-muted);
+}
+
