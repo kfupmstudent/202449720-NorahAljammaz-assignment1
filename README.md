@@ -54,6 +54,7 @@ I used a few AI tools throughout this project, each for a different part:
   point, and I later used it again for a final review pass that caught a few things I'd
   missed.
 - **Gemini** helped write my project descriptions and generated my logo image.
+- **ChatGPT** - Used to review work again to make sure all requirements were met
 
 I reviewed and edited everything the AI produced — fixing broken or mismatched code,
 rewriting content to reflect my actual work, and adjusting the styling myself. AI sped
