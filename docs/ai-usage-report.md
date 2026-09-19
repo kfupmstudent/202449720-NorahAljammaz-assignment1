@@ -10,7 +10,7 @@
 - **Gemini** — Used to generate my logo image and to help write the descriptions for
   my two featured projects (Breaker and Darsi). I edited this content afterward so it
   accurately reflected my own work and role on each project.
-
+- **ChatGPT** - Used to review work again to make sure all requirements were met
 
 ## Benefits & Challenges
 **Benefits:**
